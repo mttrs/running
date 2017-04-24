@@ -2,7 +2,7 @@
   "name": "Running",
   "repository": "https://github.com/mttrs/running",
   "formation": {
-    "web": {
+    "worker": {
       "quantity": 1,
       "size": "standard-1x"
     }
