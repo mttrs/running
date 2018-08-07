@@ -4,20 +4,14 @@
   "formation": {
     "web": {
       "quantity": 1,
-      "size": "standard-1x"
+      "size": "free"
     },
     "worker": {
       "quantity": 1,
-      "size": "standard-1x"
+      "size": "free"
     }
   },
   "addons": [
-    {
-      "plan": "heroku-postgresql"
-    },
-    {
-      "plan": "heroku-redis:premium-0"
-    }
   ],
   "buildpacks": [
     {
