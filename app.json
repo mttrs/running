@@ -1,25 +1,17 @@
 {
-  "name": "Running",
-  "repository": "https://github.com/mttrs/running",
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "standard-1x"
-    }
-  },
-  "addons": [
-    {
-      "plan": "heroku-postgresql"
-    }
-  ],
   "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    },
     {
       "url": "heroku/nodejs"
     }
   ],
-  "env": {
-    "TEST_URL": {
-      "required": false
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "bin/test"
+      }
     }
   }
 }
