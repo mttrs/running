@@ -5,19 +5,12 @@
     "web": {
       "quantity": 1,
       "size": "standard-1x"
-    },
-    "worker": {
-      "quantity": 1,
-      "size": "standard-1x"
     }
   },
   "addons": [
     {
       "plan": "heroku-postgresql"
-    },
-    {
-      "plan": "heroku-redis:premium-0"
-    }
+    
   ],
   "buildpacks": [
     {
